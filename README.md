@@ -17,4 +17,4 @@ A basketball scoreboard built with HTML, CSS and JavaScript as part of the Scrim
 
 ## Live Demo
 
-https://tu-netlify.netlify.app
+https://basketball-scoreboard-webapp.netlify.app/
