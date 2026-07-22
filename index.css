@@ -1,124 +1,140 @@
 @font-face {
-    font-family: "Cursed Timer";
-    src: url("fonts/CursedTimerUlil-Aznm.ttf") format("truetype");
+  font-family: "Cursed Timer";
+  src: url("fonts/CursedTimerUlil-Aznm.ttf") format("truetype");
 }
 
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px auto 0 auto;
-    
-    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px auto 0 auto;
+}
+
+.scoreboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1b244a;
+  border: 10px solid #a8dadc;
+  height: 400px;
+  width: 575px;
+  border-radius: 20px;
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
-    background-color: #1B244A;
-    border: 10px solid #A8DADC;
-    height: 385px;
-    width: 575px;
-    border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #1b244a;
 
+  height: 385px;
+  width: 555px;
+  border-radius: 20px;
 }
 
 h3 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    font-size: 40px;
-    color: #EEEEEE;
-    margin-bottom: 21px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #eeeeee;
+  margin-bottom: 21px;
+  margin-top: 15px;
 }
 
 .team {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .scorebx {
-    height: 120px;
-    width: 155px;
-    background-color: #080001;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+  height: 120px;
+  width: 155px;
+  background-color: #080001;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #schome {
-    color: #F94F6D;
-    font-family: "Cursed Timer", monospace;
-    font-size: 90px;
-    margin: 0;
-    line-height: 1;
-    
+  color: #f94f6d;
+  font-family: "Cursed Timer", monospace;
+  font-size: 90px;
+  margin: 0;
+  line-height: 1;
 }
 
 #scguest {
-    color: #F94F6D;
-    font-family: "Cursed Timer", monospace;
-    font-size: 90px;
-    margin: 0;
-    line-height: 1;
+  color: #f94f6d;
+  font-family: "Cursed Timer", monospace;
+  font-size: 90px;
+  margin: 0;
+  line-height: 1;
 }
 
 .control {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 9px;
-    margin-top: 26px;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 9px;
+  margin-top: 26px;
 }
 
 .button {
-    margin: 0;
-    width: 45px;
-    height: 45px;
-    background-color: #1B244A;
-    border: 2px solid #9AABD8;
-    border-radius: 5px;
-    color: #9AABD8;
-    font-family: "Cursed Timer", monospace;
-    font-size: 18px;
+  margin: 0;
+  width: 45px;
+  height: 45px;
+  background-color: #1b244a;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  color: #9aabd8;
+  font-family: "Cursed Timer", monospace;
+  font-size: 18px;
 }
 
 .button:active {
-    background-color: #111827;
+  background-color: #111827;
 }
 
 footer {
-    width: 575px;
-    
-    margin-top: 15px;
-    border-radius: 20px;
-    background-color: #50597C;
-    padding: 18px;
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-    color: #9AABD8;
+  width: 575px;
+
+  margin-top: 15px;
+  border-radius: 20px;
+  background-color: #50597c;
+  padding: 18px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  color: #9aabd8;
+}
+
+#rst-button {
+  color: #1b244a;
+  background-color: #9aabd8;
+  width: 150px;
+  height: 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: none;
+  font-family: "Cursed Timer", monospace;
+  font-size: 18px;
 }
 
 footer p {
-    margin: 4px 0;
+  margin: 4px 0;
 }
 
 footer a {
-    margin-top: 8px;
+  margin-top: 8px;
 }

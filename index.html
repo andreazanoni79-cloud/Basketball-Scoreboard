@@ -1,39 +1,55 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="team">
-                <h3>HOME</h3>
-                    <div class="scorebx">
-                        <div id=schome>0</div>
-                    </div>
-                    <div class="control">
-                        <button class="button" id="home-plus1" onclick="hplus1()">+1</button>
-                        <button class="button" id="home-plus2" onclick="hplus2()">+2</button>
-                        <button class="button" id="home-plus3" onclick="hplus3()">+3</button>
-                    </div>      
-            </div>
-            <div class="team">
-                <h3>GUEST</h3>
-                    <div class="scorebx">
-                        <div id=scguest>0</div>
-                    </div>
-                    <div class="control">
-                        <button class="button" id="guest-plus1" onclick="gplus1()">+1</button>
-                        <button class="button" id="guest-plus2" onclick="gplus2()">+2</button>
-                        <button class="button" id="guest-plus3" onclick="gplus3()">+3</button>
-                    </div>
-            </div>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="scoreboard">
+      <div class="container">
+        <div class="team">
+          <h3>HOME</h3>
+          <div class="scorebx">
+            <div id="schome">0</div>
+          </div>
+          <div class="control">
+            <button class="button" id="home-plus1" onclick="hplus1()">
+              +1
+            </button>
+            <button class="button" id="home-plus2" onclick="hplus2()">
+              +2
+            </button>
+            <button class="button" id="home-plus3" onclick="hplus3()">
+              +3
+            </button>
+          </div>
         </div>
-        
-        <footer>
-            <p>Designed and developed by Andrea Zanoni</p>
-            <p>HTML • CSS • JavaScript</p>
-            <p>Scrimba Frontend Career Path</p>
-            <a href="https://github.com/TU-USUARIO">GitHub</a>
-        </footer>
-        <script src="index.js"></script>
-    </body>
+        <div class="team">
+          <h3>GUEST</h3>
+          <div class="scorebx">
+            <div id="scguest">0</div>
+          </div>
+          <div class="control">
+            <button class="button" id="guest-plus1" onclick="gplus1()">
+              +1
+            </button>
+            <button class="button" id="guest-plus2" onclick="gplus2()">
+              +2
+            </button>
+            <button class="button" id="guest-plus3" onclick="gplus3()">
+              +3
+            </button>
+          </div>
+        </div>
+      </div>
+      <div>
+        <button id="rst-button" onclick="reset()">Reset</button>
+      </div>
+    </div>
+    <footer>
+      <p>Designed and developed by Andrea Zanoni</p>
+      <p>HTML • CSS • JavaScript</p>
+      <p>Scrimba Frontend Career Path</p>
+      <a href="https://github.com/TU-USUARIO">GitHub</a>
+    </footer>
+    <script src="index.js"></script>
+  </body>
 </html>
